@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+     <section class="form">
+         <center>
+            <h4>Formulario</h4>
+            <p>Limite superior: <input class="controls" type="number" id="LimiteSup" size="19"></p>
+            <p>Limite inferior: <input class="controls" type="number" id="LimiteInf" min="40"></p>
+            <p>Valor objetivo:  <input class="controls" type="number" id="Valor" min="40"></p>
+            <p>Margen de error: <input class="controls" type="number" id="MargenError" min="40"></p>
+
+            <div id='R'>
+                <label id="resul"></label>
+                <label id="ite"></label>
+            </div>
+
+        </center>
+            <p>
+                <center>
+                    <button class="botons" id="button" onclick="Datos()">Datos</button>
+                </center>
+            </p>
+          </form>
+     </section>
+
+     <script src="./PuntoMedio.js"></script>
+
+</body>
+</html>
